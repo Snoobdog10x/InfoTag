@@ -14,12 +14,11 @@
     .gradient-custom {
         /* fallback for old browsers */
         background: #84fab0;
-        background-repeat: no-repeat;
         /* Chrome 10-25, Safari 5.1-6 */
         background: -webkit-linear-gradient(to bottom, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
-
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        background: linear-gradient(to bottom, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+        background: linear-gradient(to bottom, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+        background-attachment: fixed;
     }
 </style>
 <script>
@@ -29,7 +28,7 @@
 
 </script>
 
-<body class="container gradient-custom">
+<body class="container gradient-custom h-100">
     <div class="d-block d-md-none">
         <br>
         <div class="row align-items-center">
@@ -44,7 +43,7 @@
             <p class="col-7" style="font-size: larger;">Nguyễn Duy Thanh <br>Contact me</p>
         </div>
         <hr>
-        <table class="table">
+        <table class="table" style="height: 75%;">
             <tr onclick="onclick_function('https://www.facebook.com/thanh.tahnha/')">
                 <td align="center">
                     <i class="bi-facebook" style="font-size: 2em;"></i>
@@ -145,5 +144,7 @@
         </table>
     </div>
 </body>
+ 
+<!-- End of .container -->
 
 </html>
