@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
     <meta charset="UTF-8">
@@ -28,21 +28,21 @@
     }
 
 </script>
-<body class="container-fluid gradient-custom">
-    <div class="container d-block d-md-none">
-        <br>
-        <div class="container">
-            <div class="d-flex justify-content-center">
-                <img class="border border-dark rounded-circle" width="30%" src="img/ava.png" alt="">
+
+<body class="container h-100 gradient-custom">
+    <div class="d-block d-md-none">
+        <div class="row align-items-center">
+            <div class="col-5">
+                <img class="border border-dark rounded-circle" style="max-width: 100%;" src="img/ava.png" alt="">
             </div>
-            <br>
-            <div class="d-flex justify-content-center">
-                <h3>Nguyễn Duy Thanh</h3>
-            </div>
-            <div class="d-flex justify-content-center">
-                <h3>Contact me</h3>
+            <div class="col-7 ">
+                <p style="font-size: larger; font-weight: bold;">InfoTag: <br> Tag by your way</p>
             </div>
         </div>
+        <div>
+            <p class="col-7" style="font-size: larger;">Nguyễn Duy Thanh <br>Contact me</p>
+        </div>
+        <hr>
         <table class="table">
             <tr onclick="onclick_function('https://www.facebook.com/thanh.tahnha/')">
                 <td align="center">
@@ -86,56 +86,54 @@
             </tr>
         </table>
     </div>
-    <div class="container-fluid d-none d-md-block">
-        <br>
-        <div class="container">
-            <div class="d-flex justify-content-center">
-                <img class="border border-dark rounded-circle" width="25%" src="img/ava.png" alt="">
-            </div>
-            <br>
-            <div class="d-flex justify-content-center">
-                <h3>Nguyễn Duy Thanh</h3>
-            </div>
-            <div class="d-flex justify-content-center">
+    <div class="h-100 d-none d-md-block">
+        <div class="row align-items-center">
+            <div class="col-3 align-items-center">
+                <img class="border border-dark rounded-circle" style="max-width: 100%;" src="img/ava.png" alt="">
                 <h3>Contact me</h3>
             </div>
+            <div class="col-8">
+                <h1>InfoTag Tag by your way</h1>
+                <h3>Nguyễn Duy Thanh</h3>
+            </div>
         </div>
-        <table class="table" style="width: 100%;">
+        <hr>
+        <table class="table table-hover">
             <tr onclick="onclick_function('https://www.facebook.com/thanh.tahnha/')">
-                <td align="center">
-                    <i class="bi-facebook" style="font-size: 2em;"></i>
+                <td align="center" style="vertical-align: middle;">
+                    <i class="bi-facebook" style="font-size: 3em;"></i>
                 </td>
                 <td style="vertical-align: middle;">
                     <h1>Facebook</h1>
                 </td>
             </tr>
             <tr onclick="onclick_function('https://www.instagram.com/dthanh.nek/')" )>
-                <td align="center">
-                    <i class="bi-instagram" style="font-size: 2em;"></i>
+                <td align="center" style="vertical-align: middle;">
+                    <i class="bi-instagram" style="font-size: 3em;"></i>
                 </td>
                 <td style="vertical-align: middle;">
                     <h1>Instagram</h1>
                 </td>
             </tr>
             <tr onclick="onclick_function('https://www.linkedin.com/in/thanh-nguyen-0a479a1b1/')">
-                <td align="center">
-                    <i class="bi-linkedin" style="font-size: 2em;"></i>
+                <td align="center" style="vertical-align: middle;">
+                    <i class="bi-linkedin" style="font-size: 3em;"></i>
                 </td>
                 <td style="vertical-align: middle;">
                     <h1>Linkedin</h1>
                 </td>
             </tr>
             <tr onclick="onclick_function('https://github.com/Snoobdog10x')">
-                <td align="center">
-                    <i class="bi-github" style="font-size: 2em;"></i>
+                <td align="center" style="vertical-align: middle;">
+                    <i class="bi-github" style="font-size: 3em;"></i>
                 </td>
                 <td style="vertical-align: middle;">
                     <h1>Github</h1>
                 </td>
             </tr>
             <tr onclick=" window.location = 'mailto:duythanh1565@gmail.com'">
-                <td align="center">
-                    <i class="bi-envelope" style="font-size: 2em;"></i>
+                <td align="center" style="vertical-align: middle;">
+                    <i class="bi-envelope" style="font-size: 3em;"></i>
                 </td>
                 <td style="vertical-align: middle;">
                     <h1>Gmail</h1>
